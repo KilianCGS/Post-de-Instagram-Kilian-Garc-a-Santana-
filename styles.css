@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://wallpaperbat.com/img/8633244-arctic-glacier-ice-snow-hd-wallpaper.png);
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+div{ box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: lightgray;
+    padding: 10px;
+}
+
+header h1{
+    margin: 0;
+}
+
+
+div.post{
+    background: lightgray;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border: solid 3px;
+}
+div.post .postheader div:first-child{
+
+    display:inline-block;
+    width: 80%;
+}
+
+div.post .postheader div:last-child{
+    text-align: right;
+    display:inline-block;
+    width: 20%;
+    padding: 10px;
+    color: gray
+}
+
+div.post img{
+    width: 100%;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
